@@ -29,12 +29,12 @@ export default function Layout({ children, home }) {
         {home ? (
           <>
             <Image
-                priority
-                src="/profile.jpg"
-                className={utilStyles.borderCircle}
-                height={144}
-                width={144}
-                alt="iubbyby8"
+              priority
+              src="/profile.jpg"
+              className={utilStyles.borderCircle}
+              height={144}
+              width={144}
+              alt="iubbyby8"
             />
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
           </>

@@ -2,6 +2,7 @@ import { Box } from '@mui/material';
 import Cam from '../components/cam';
 import Header from '../components/header';
 import Sidebar from '../components/sidebar';
+import CamImag from '../components/camImg';
 
 export default function Home() {
   return (
